@@ -26,7 +26,7 @@ const SolutionsPage = () => {
       desc: 'Seamless coordination for weddings, birthdays, and corporate events. We handle the stress while you enjoy the moment.',
       icon: <Calendar size={40} />,
       image: 'https://picsum.photos/seed/event1/800/600',
-      color: 'bg-orange-600',
+      color: 'bg-amber-600',
       link: '/events'
     },
     {
@@ -60,7 +60,7 @@ const SolutionsPage = () => {
             animate={{ opacity: 1, y: 0 }}
             className="text-5xl md:text-6xl font-display font-bold mb-6"
           >
-            Our <span className="text-orange-500">Solutions</span>
+            Our <span className="text-amber-500">Solutions</span>
           </motion.h1>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
@@ -97,7 +97,7 @@ const SolutionsPage = () => {
                   <p className="text-stone-600 mb-8 leading-relaxed">{sol.desc}</p>
                   <Link 
                     href={sol.link}
-                    className={`inline-flex items-center font-bold ${sol.id === 'souvenirs' ? 'text-blue-700' : sol.id === 'events' ? 'text-orange-600' : 'text-stone-900'} group`}
+                    className={`inline-flex items-center font-bold ${sol.id === 'souvenirs' ? 'text-blue-700' : sol.id === 'events' ? 'text-amber-600' : 'text-stone-900'} group`}
                   >
                     Learn More <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
                   </Link>
@@ -126,7 +126,7 @@ const SolutionsPage = () => {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
                   <div className="absolute bottom-8 left-8 right-8">
                     <h4 className="text-2xl font-display font-bold text-white mb-2">{cat.name}</h4>
-                    <span className="text-orange-400 text-sm font-bold flex items-center opacity-0 group-hover:opacity-100 transition-opacity">
+                    <span className="text-amber-400 text-sm font-bold flex items-center opacity-0 group-hover:opacity-100 transition-opacity">
                       Browse Items <ArrowRight className="ml-2 w-4 h-4" />
                     </span>
                   </div>

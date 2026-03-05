@@ -10,7 +10,7 @@ import FloatingActions from '@/components/FloatingActions';
 
 const AboutPage = () => {
   const values = [
-    { title: 'Excellence', desc: 'We strive for perfection in every souvenir and event we handle.', icon: <Award size={32} className="text-orange-500" /> },
+    { title: 'Excellence', desc: 'We strive for perfection in every souvenir and event we handle.', icon: <Award size={32} className="text-amber-500" /> },
     { title: 'Integrity', desc: 'Honesty and transparency are the foundations of our business.', icon: <ShieldCheck size={32} className="text-blue-600" /> },
     { title: 'Creativity', desc: 'We bring fresh, culturally relevant ideas to every project.', icon: <Heart size={32} className="text-rose-500" /> },
     { title: 'Customer Focus', desc: 'Your satisfaction is our ultimate priority.', icon: <Users size={32} className="text-blue-500" /> },
@@ -81,13 +81,13 @@ const AboutPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div className="bg-white/5 backdrop-blur-sm p-12 rounded-[3rem] border border-white/10">
-              <h3 className="text-3xl font-display font-bold mb-6 text-orange-400">Our Mission</h3>
+              <h3 className="text-3xl font-display font-bold mb-6 text-amber-400">Our Mission</h3>
               <p className="text-xl text-blue-100 leading-relaxed">
                 To elevate every Nigerian celebration by providing premium, customized souvenirs and seamless event planning services that reflect our clients&apos; unique style and cultural heritage.
               </p>
             </div>
             <div className="bg-white/5 backdrop-blur-sm p-12 rounded-[3rem] border border-white/10">
-              <h3 className="text-3xl font-display font-bold mb-6 text-orange-400">Our Vision</h3>
+              <h3 className="text-3xl font-display font-bold mb-6 text-amber-400">Our Vision</h3>
               <p className="text-xl text-blue-100 leading-relaxed">
                 To be the leading provider of event solutions in Africa, recognized for our commitment to quality, innovation, and the empowerment of creative talent.
               </p>

@@ -29,7 +29,7 @@ const fadeInUp = {
 const Home = () => {
   const souvenirCategories = [
     { title: 'Kitchen & Household', icon: <ShoppingBag size={32} />, color: 'bg-blue-500', href: '/solutions/souvenirs/kitchen' },
-    { title: 'Personal & Utility', icon: <Users size={32} />, color: 'bg-orange-500', href: '/solutions/souvenirs/personal' },
+    { title: 'Personal & Utility', icon: <Users size={32} />, color: 'bg-amber-500', href: '/solutions/souvenirs/personal' },
     { title: 'Edibles & Groceries', icon: <Star size={32} />, color: 'bg-rose-500', href: '/solutions/souvenirs/edibles' },
     { title: 'Luxury & VIP', icon: <Award size={32} />, color: 'bg-purple-600', href: '/solutions/souvenirs/luxury' },
     { title: 'Tech & Modern', icon: <Clock size={32} />, color: 'bg-blue-600', href: '/solutions/souvenirs/tech' },
@@ -81,11 +81,11 @@ const Home = () => {
             transition={{ duration: 0.8 }}
             className="max-w-2xl"
           >
-            <span className="inline-block px-4 py-1.5 rounded-full bg-orange-500/20 text-orange-400 text-sm font-bold tracking-wider uppercase mb-6 border border-orange-500/30">
+            <span className="inline-block px-4 py-1.5 rounded-full bg-amber-500/20 text-amber-400 text-sm font-bold tracking-wider uppercase mb-6 border border-amber-500/30">
               Premium Event Solutions
             </span>
             <h1 className="text-5xl md:text-7xl font-display font-bold text-white leading-tight mb-6">
-              Premium Souvenirs & <span className="text-orange-500">Event Planning</span> for Every Celebration
+              Premium Souvenirs & <span className="text-amber-500">Event Planning</span> for Every Celebration
             </h1>
             <p className="text-xl text-stone-300 mb-10 leading-relaxed">
               We help hosts impress their guests with class and culture, regardless of budget. From exquisite souvenirs to seamless event management.
@@ -93,7 +93,7 @@ const Home = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <Link 
                 href="/solutions#souvenirs" 
-                className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-full text-lg font-bold transition-all shadow-xl shadow-orange-500/20 flex items-center justify-center group"
+                className="bg-amber-500 hover:bg-amber-600 text-white px-8 py-4 rounded-full text-lg font-bold transition-all shadow-xl shadow-amber-500/20 flex items-center justify-center group"
               >
                 Explore Souvenirs
                 <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
@@ -115,7 +115,7 @@ const Home = () => {
           className="absolute bottom-10 left-1/2 -translate-x-1/2 text-white/50 hidden md:block"
         >
           <div className="w-6 h-10 border-2 border-white/30 rounded-full flex justify-center p-1">
-            <div className="w-1 h-2 bg-orange-500 rounded-full" />
+            <div className="w-1 h-2 bg-amber-500 rounded-full" />
           </div>
         </motion.div>
       </section>
@@ -135,7 +135,7 @@ const Home = () => {
                   referrerPolicy="no-referrer"
                 />
               </div>
-              <div className="absolute -bottom-10 -right-10 w-64 h-64 bg-orange-100 rounded-full -z-0 blur-3xl opacity-60" />
+              <div className="absolute -bottom-10 -right-10 w-64 h-64 bg-amber-100 rounded-full -z-0 blur-3xl opacity-60" />
               <div className="absolute -top-10 -left-10 w-64 h-64 bg-blue-100 rounded-full -z-0 blur-3xl opacity-60" />
               
               {/* Stats Overlay */}
@@ -229,9 +229,9 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <motion.div {...fadeInUp}>
-              <h2 className="text-orange-400 font-bold uppercase tracking-widest mb-4">Event Services</h2>
+              <h2 className="text-amber-400 font-bold uppercase tracking-widest mb-4">Event Services</h2>
               <h3 className="text-4xl md:text-5xl font-display font-bold mb-8">
-                Seamless Planning for <span className="text-orange-500">Unforgettable</span> Moments
+                Seamless Planning for <span className="text-amber-500">Unforgettable</span> Moments
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-10">
                 {[
@@ -241,14 +241,14 @@ const Home = () => {
                   { title: 'Traditional', desc: 'Culturally rich ceremonies.' }
                 ].map((service, i) => (
                   <div key={i} className="bg-white/5 backdrop-blur-sm p-6 rounded-2xl border border-white/10">
-                    <h4 className="text-xl font-bold mb-2 text-orange-400">{service.title}</h4>
+                    <h4 className="text-xl font-bold mb-2 text-amber-400">{service.title}</h4>
                     <p className="text-stone-400 text-sm">{service.desc}</p>
                   </div>
                 ))}
               </div>
               <Link 
                 href="/events" 
-                className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-full text-lg font-bold transition-all shadow-xl shadow-orange-500/20 inline-flex items-center"
+                className="bg-amber-500 hover:bg-amber-600 text-white px-8 py-4 rounded-full text-lg font-bold transition-all shadow-xl shadow-amber-500/20 inline-flex items-center"
               >
                 Plan My Event
                 <ArrowRight className="ml-2" />
@@ -323,7 +323,7 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-display font-bold text-stone-900 mb-4">What Our Clients Say</h2>
-            <div className="flex justify-center space-x-1 text-orange-500">
+            <div className="flex justify-center space-x-1 text-amber-500">
               {[...Array(5)].map((_, i) => <Star key={i} fill="currentColor" size={20} />)}
             </div>
           </div>
@@ -366,7 +366,7 @@ const Home = () => {
               className="flex-grow bg-white/10 border border-white/20 rounded-full py-4 px-8 focus:outline-none focus:bg-white/20 transition-all text-white placeholder:text-blue-200"
               required
             />
-            <button className="bg-orange-500 hover:bg-orange-600 text-white px-10 py-4 rounded-full font-bold transition-all shadow-xl shadow-orange-900/20">
+            <button className="bg-amber-500 hover:bg-amber-600 text-white px-10 py-4 rounded-full font-bold transition-all shadow-xl shadow-amber-900/20">
               Subscribe Now
             </button>
           </form>

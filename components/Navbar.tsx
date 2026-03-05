@@ -39,8 +39,8 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <Link href="/" className="flex items-center space-x-2">
             <span className={`text-2xl font-display font-bold ${isScrolled ? 'text-blue-600' : 'text-white'}`}>
-              SO<span className="text-orange-500">Royal</span>
-              <span className={`ml-1 text-sm font-sans font-black uppercase tracking-tighter border-2 px-1 rounded ${isScrolled ? 'border-orange-500 text-black' : 'border-white text-white'}`}>Bubbles</span>
+              SO<span className="text-amber-500">Royal</span>
+              <span className={`ml-1 text-sm font-sans font-black uppercase tracking-tighter border-2 px-1 rounded ${isScrolled ? 'border-amber-500 text-black' : 'border-white text-white'}`}>Bubbles</span>
             </span>
           </Link>
 
@@ -90,7 +90,7 @@ const Navbar = () => {
             ))}
             <Link 
               href="/contact"
-              className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2.5 rounded-full text-sm font-semibold transition-all shadow-lg shadow-orange-500/20"
+              className="bg-amber-500 hover:bg-amber-600 text-white px-6 py-2.5 rounded-full text-sm font-semibold transition-all shadow-lg shadow-amber-500/20"
             >
               Get a Quote
             </Link>

@@ -212,7 +212,7 @@ const CategoryPage = () => {
                     </div>
                   </div>
                   <div className="flex items-center gap-4">
-                    <div className="bg-stone-100 p-3 rounded-xl text-orange-600">
+                    <div className="bg-stone-100 p-3 rounded-xl text-amber-600">
                       <Star size={24} />
                     </div>
                     <div>

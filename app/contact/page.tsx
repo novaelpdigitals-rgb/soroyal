@@ -29,7 +29,7 @@ const ContactPage = () => {
             animate={{ opacity: 1, y: 0 }}
             className="text-5xl md:text-6xl font-display font-bold mb-6"
           >
-            Contact <span className="text-orange-500">Us</span>
+            Contact <span className="text-amber-500">Us</span>
           </motion.h1>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
@@ -64,7 +64,7 @@ const ContactPage = () => {
                   </div>
                 </div>
                 <div className="flex items-start space-x-6">
-                  <div className="bg-orange-100 p-4 rounded-2xl text-orange-700">
+                  <div className="bg-amber-100 p-4 rounded-2xl text-amber-700">
                     <Mail size={24} />
                   </div>
                   <div>

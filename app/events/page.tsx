@@ -45,7 +45,7 @@ const EventsPage = () => {
       <Navbar />
       
       {/* Header */}
-      <section className="pt-32 pb-20 bg-orange-500 text-white">
+      <section className="pt-32 pb-20 bg-amber-500 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
@@ -58,7 +58,7 @@ const EventsPage = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
-            className="text-xl text-orange-50 max-w-3xl mx-auto"
+            className="text-xl text-amber-50 max-w-3xl mx-auto"
           >
             From intimate gatherings to grand celebrations, we bring your vision to life with precision and royalty.
           </motion.p>

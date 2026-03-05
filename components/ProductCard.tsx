@@ -45,7 +45,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onQuickView }) => {
             </span>
           )}
           {product.isPopular && (
-            <span className="bg-orange-500 text-white text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-lg flex items-center gap-1">
+            <span className="bg-amber-500 text-white text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-lg flex items-center gap-1">
               <Star size={10} fill="currentColor" /> Popular
             </span>
           )}
