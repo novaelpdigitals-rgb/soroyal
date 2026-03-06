@@ -4,6 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'motion/react';
+import OwambeImage from '@/images/Owambe.png';
 import { 
   ArrowRight, 
   ShoppingBag, 
@@ -127,12 +128,11 @@ const Home = () => {
             <motion.div {...fadeInUp} className="relative">
               <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl">
                 <Image 
-                  src="https://picsum.photos/seed/souvenirs/800/1000"
+                  src={OwambeImage}
                   alt="Exquisite Souvenirs"
                   width={800}
                   height={1000}
                   className="object-cover"
-                  referrerPolicy="no-referrer"
                 />
               </div>
               <div className="absolute -bottom-10 -right-10 w-64 h-64 bg-amber-100 rounded-full -z-0 blur-3xl opacity-60" />
