@@ -5,6 +5,10 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'motion/react';
 import OwambeImage from '@/images/Owambe.png';
+import BirthdayImage from '@/images/Birthday.png';
+import CorporateImage from '@/images/Corporate.png';
+import TraditionalImage from '@/images/traditional.png';
+import WeddingImage from '@/images/wedding.png';
 import { 
   ArrowRight, 
   ShoppingBag, 
@@ -258,18 +262,18 @@ const Home = () => {
             <motion.div {...fadeInUp} transition={{ delay: 0.2 }} className="grid grid-cols-2 gap-4">
               <div className="space-y-4 pt-12">
                 <div className="rounded-2xl overflow-hidden h-64">
-                  <Image src="https://picsum.photos/seed/wedding/400/600" alt="Wedding" width={400} height={600} className="object-cover h-full" referrerPolicy="no-referrer" />
+                  <Image src={WeddingImage} alt="Wedding" width={400} height={600} className="object-cover h-full" />
                 </div>
                 <div className="rounded-2xl overflow-hidden h-48">
-                  <Image src="https://picsum.photos/seed/party/400/400" alt="Party" width={400} height={400} className="object-cover h-full" referrerPolicy="no-referrer" />
+                  <Image src={BirthdayImage} alt="Birthday" width={400} height={400} className="object-cover h-full" />
                 </div>
               </div>
               <div className="space-y-4">
                 <div className="rounded-2xl overflow-hidden h-48">
-                  <Image src="https://picsum.photos/seed/corporate/400/400" alt="Corporate" width={400} height={400} className="object-cover h-full" referrerPolicy="no-referrer" />
+                  <Image src={CorporateImage} alt="Corporate" width={400} height={400} className="object-cover h-full" />
                 </div>
                 <div className="rounded-2xl overflow-hidden h-64">
-                  <Image src="https://picsum.photos/seed/trad/400/600" alt="Traditional" width={400} height={600} className="object-cover h-full" referrerPolicy="no-referrer" />
+                  <Image src={TraditionalImage} alt="Traditional" width={400} height={600} className="object-cover h-full" />
                 </div>
               </div>
             </motion.div>
