@@ -8,6 +8,10 @@ import { ShoppingBag, Calendar, GraduationCap, ArrowRight } from 'lucide-react';
 import PremiumSouvenirImage from '@/images/premiumsouvenir.jpg';
 import EventPlannerImage from '@/images/Event Planner.png';
 import StudentTrainingImage from '@/images/Student Training.png';
+import KitchenThingsImage from '@/images/Kitchen things.jpg';
+import PersonalUtilityImage from '@/images/Personal utility.jpg';
+import SoFoodImage from '@/images/SO food1.jpg';
+import LuxuryImage from '@/images/Luxury.jpg';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import FloatingActions from '@/components/FloatingActions';
@@ -44,10 +48,10 @@ const SolutionsPage = () => {
   ];
 
   const souvenirCategories = [
-    { name: 'Kitchen & Household', href: '/solutions/souvenirs/kitchen', image: 'https://picsum.photos/seed/kitchen/400/300' },
-    { name: 'Personal & Utility', href: '/solutions/souvenirs/personal', image: 'https://picsum.photos/seed/personal/400/300' },
-    { name: 'Edibles & Groceries', href: '/solutions/souvenirs/edibles', image: 'https://picsum.photos/seed/edibles/400/300' },
-    { name: 'Luxury & VIP', href: '/solutions/souvenirs/luxury', image: 'https://picsum.photos/seed/luxury/400/300' },
+    { name: 'Kitchen & Household', href: '/solutions/souvenirs/kitchen', image: KitchenThingsImage },
+    { name: 'Personal & Utility', href: '/solutions/souvenirs/personal', image: PersonalUtilityImage },
+    { name: 'Edibles & Groceries', href: '/solutions/souvenirs/edibles', image: SoFoodImage },
+    { name: 'Luxury & VIP', href: '/solutions/souvenirs/luxury', image: LuxuryImage },
     { name: 'Tech & Modern', href: '/solutions/souvenirs/tech', image: 'https://picsum.photos/seed/tech/400/300' },
   ];
 
