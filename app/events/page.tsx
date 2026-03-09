@@ -4,6 +4,10 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import { motion } from 'motion/react';
 import { Calendar, Users, MapPin, DollarSign, Send, CheckCircle2 } from 'lucide-react';
+import WeddingImage from '@/images/wedding.png';
+import BirthdayImage from '@/images/Birthday.png';
+import CorporateImage from '@/images/Corporate.png';
+import TraditionalImage from '@/images/traditional.png';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import FloatingActions from '@/components/FloatingActions';
@@ -21,22 +25,22 @@ const EventsPage = () => {
     {
       title: 'Wedding Planning',
       items: ['Decoration & Styling', 'Souvenir Coordination', 'Guest Management', 'Vendor Sourcing'],
-      image: 'https://picsum.photos/seed/wed-plan/600/400'
+      image: WeddingImage
     },
     {
       title: 'Birthday Parties',
       items: ['Themed Décor', 'Custom Souvenir Packages', 'Entertainment Sourcing', 'Cake & Catering'],
-      image: 'https://picsum.photos/seed/birth-plan/600/400'
+      image: BirthdayImage
     },
     {
       title: 'Corporate Events',
       items: ['Branding & Merchandise', 'Conference Materials', 'Venue Setup', 'Logistics Management'],
-      image: 'https://picsum.photos/seed/corp-plan/600/400'
+      image: CorporateImage
     },
     {
       title: 'Traditional Ceremonies',
       items: ['Cultural Décor', 'Fabric Coordination', 'Traditional Souvenirs', 'Protocol Services'],
-      image: 'https://picsum.photos/seed/trad-plan/600/400'
+      image: TraditionalImage
     }
   ];
 
