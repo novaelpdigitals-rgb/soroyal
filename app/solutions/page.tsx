@@ -12,6 +12,7 @@ import KitchenThingsImage from '@/images/Kitchen things.jpg';
 import PersonalUtilityImage from '@/images/Personal utility.jpg';
 import SoFoodImage from '@/images/SO food1.jpg';
 import LuxuryImage from '@/images/Luxury.jpg';
+import PhoneStandImage from '@/images/phonestand.jpg';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import FloatingActions from '@/components/FloatingActions';
@@ -52,7 +53,7 @@ const SolutionsPage = () => {
     { name: 'Personal & Utility', href: '/solutions/souvenirs/personal', image: PersonalUtilityImage },
     { name: 'Edibles & Groceries', href: '/solutions/souvenirs/edibles', image: SoFoodImage },
     { name: 'Luxury & VIP', href: '/solutions/souvenirs/luxury', image: LuxuryImage },
-    { name: 'Tech & Modern', href: '/solutions/souvenirs/tech', image: 'https://picsum.photos/seed/tech/400/300' },
+    { name: 'Tech & Modern', href: '/solutions/souvenirs/tech', image: PhoneStandImage },
   ];
 
   return (
