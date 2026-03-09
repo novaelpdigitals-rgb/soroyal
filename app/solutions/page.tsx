@@ -5,6 +5,9 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'motion/react';
 import { ShoppingBag, Calendar, GraduationCap, ArrowRight } from 'lucide-react';
+import PremiumSouvenirImage from '@/images/premiumsouvenir.jpg';
+import EventPlannerImage from '@/images/Event Planner.png';
+import StudentTrainingImage from '@/images/Student Training.png';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import FloatingActions from '@/components/FloatingActions';
@@ -16,7 +19,7 @@ const SolutionsPage = () => {
       title: 'Premium Souvenirs',
       desc: 'Exquisite gifts for all occasions. We source, brand, and package items that your guests will cherish forever.',
       icon: <ShoppingBag size={40} />,
-      image: 'https://picsum.photos/seed/souv1/800/600',
+      image: PremiumSouvenirImage,
       color: 'bg-blue-600',
       link: '#souvenirs-grid'
     },
@@ -25,7 +28,7 @@ const SolutionsPage = () => {
       title: 'Event Planning',
       desc: 'Seamless coordination for weddings, birthdays, and corporate events. We handle the stress while you enjoy the moment.',
       icon: <Calendar size={40} />,
-      image: 'https://picsum.photos/seed/event1/800/600',
+      image: EventPlannerImage,
       color: 'bg-amber-600',
       link: '/events'
     },
@@ -34,7 +37,7 @@ const SolutionsPage = () => {
       title: 'Student Training',
       desc: 'Professional programs in event management, branding, and creative design to empower the next generation.',
       icon: <GraduationCap size={40} />,
-      image: 'https://picsum.photos/seed/train1/800/600',
+      image: StudentTrainingImage,
       color: 'bg-stone-900',
       link: '#training-details'
     }
