@@ -9,6 +9,7 @@ import BirthdayImage from '@/images/Birthday.png';
 import CorporateImage from '@/images/Corporate.png';
 import TraditionalImage from '@/images/traditional.png';
 import WeddingImage from '@/images/wedding.png';
+import TradefairImage from '@/images/Tradefair.png';
 import { 
   ArrowRight, 
   ShoppingBag, 
@@ -314,7 +315,7 @@ const Home = () => {
               </div>
               <div className="lg:w-1/2 relative">
                 <div className="rounded-3xl overflow-hidden shadow-2xl border-4 border-white/10">
-                  <Image src="https://picsum.photos/seed/training/800/600" alt="Training Session" width={800} height={600} className="object-cover" referrerPolicy="no-referrer" />
+                  <Image src={TradefairImage} alt="Training Session" width={800} height={600} className="object-cover" />
                 </div>
               </div>
             </div>
