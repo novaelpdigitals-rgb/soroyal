@@ -27,13 +27,6 @@ import GratersImage from '@/images/graters.jpg';
 import SieveImage from '@/images/sieve.jpg';
 import DishwashingImage from '@/images/SO soap1.jpg';
 import SpiceImage from '@/images/spice.jpg';
-import UmbrellaImage from '@/images/umbrella.jpg';
-import TowelImage from '@/images/towel.jpg';
-import HandFanImage from '@/images/handfan.jpg';
-import NotepadImage from '@/images/notepad.jpg';
-import AnkaraToteBagImage from '@/images/ankara tote bag.jpg';
-import HygieneImage from '@/images/hygiene.jpg';
-import KeychainsImage from '@/images/Keychains.jpg';
 
 const productsData: Record<string, any[]> = {
   kitchen: [
@@ -48,13 +41,13 @@ const productsData: Record<string, any[]> = {
     { id: 'k9', name: 'Spice Racks & Containers', description: 'Organize your kitchen with these stylish containers.', image: SpiceImage },
   ],
   personal: [
-    { id: 'p1', name: 'Customized Umbrellas', description: 'Large sturdy umbrellas with full-color branding.', image: UmbrellaImage, isPopular: true },
-    { id: 'p2', name: 'Premium Towel Sets', description: 'Face and bath towels with embroidered initials.', image: TowelImage },
-    { id: 'p3', name: 'Hand Fans', description: 'Traditional or modern foldable hand fans.', image: HandFanImage },
-    { id: 'p4', name: 'Ankara Tote Bags', description: 'Stylish and reusable bags made from premium Ankara fabric.', image: AnkaraToteBagImage, badge: 'Cultural' },
-    { id: 'p5', name: 'Branded Notepads & Pens', description: 'Essential stationery for corporate or personal events.', image: NotepadImage },
-    { id: 'p6', name: 'Keychains & Openers', description: 'Metallic keychains with bottle opener functionality.', image: KeychainsImage },
-    { id: 'p7', name: 'Hygiene Packs', description: 'Hand sanitizer and liquid soap in travel-size bottles.', image: HygieneImage },
+    { id: 'p1', name: 'Customized Umbrellas', description: 'Large sturdy umbrellas with full-color branding.', image: '/images/umbrella.jpg', isPopular: true },
+    { id: 'p2', name: 'Premium Towel Sets', description: 'Face and bath towels with embroidered initials.', image: '/images/towel.jpg' },
+    { id: 'p3', name: 'Hand Fans', description: 'Traditional or modern foldable hand fans.', image: '/images/handfan.jpg' },
+    { id: 'p4', name: 'Ankara Tote Bags', description: 'Stylish and reusable bags made from premium Ankara fabric.', image: '/images/ankara tote bag.jpg', badge: 'Cultural' },
+    { id: 'p5', name: 'Branded Notepads & Pens', description: 'Essential stationery for corporate or personal events.', image: '/images/notepad.jpg' },
+    { id: 'p6', name: 'Keychains & Openers', description: 'Metallic keychains with bottle opener functionality.', image: '/images/Keychains.jpg' },
+    { id: 'p7', name: 'Hygiene Packs', description: 'Hand sanitizer and liquid soap in travel-size bottles.', image: '/images/hygiene.jpg' },
   ],
   edibles: [
     { id: 'e1', name: 'Noodles Bundle', description: 'A pack of popular Nigerian noodles in custom packaging.', image: 'https://picsum.photos/seed/noodles/600/600' },
