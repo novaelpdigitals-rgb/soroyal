@@ -18,18 +18,27 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import FloatingActions from '@/components/FloatingActions';
 import ProductCard from '@/components/ProductCard';
+import PlasticBasinImage from '@/images/Plastic.jfif';
+import TrayImage from '@/images/tray.jpg';
+import Cup1Image from '@/images/cup1.jpg';
+import FoodFlasksImage from '@/images/food flasks.jpg';
+import PremiumCutleryImage from '@/images/premiumcultelery.jfif';
+import GratersImage from '@/images/graters.jfif';
+import SieveImage from '@/images/sieve.jpg';
+import DishwashingImage from '@/images/SO soap1.jpg';
+import SpiceImage from '@/images/spice.jpg';
 
 const productsData: Record<string, any[]> = {
   kitchen: [
-    { id: 'k1', name: 'Customized Plastic Basins', description: 'High-quality durable basins customized with event name and date.', image: 'https://picsum.photos/seed/basin/600/600', badge: 'Best Seller' },
-    { id: 'k2', name: 'Premium Serving Trays', description: 'Available in plastic, wooden, and metallic finishes.', image: 'https://picsum.photos/seed/tray/600/600' },
-    { id: 'k3', name: 'Customized Mugs & Cups', description: 'Ceramic or plastic mugs with high-quality print.', image: 'https://picsum.photos/seed/mug/600/600', isPopular: true },
-    { id: 'k4', name: 'Food Flasks & Coolers', description: 'Insulated flasks to keep food warm for hours.', image: 'https://picsum.photos/seed/flask/600/600' },
-    { id: 'k5', name: 'Premium Cutlery Sets', description: 'Stainless steel cutlery in elegant packaging.', image: 'https://picsum.photos/seed/cutlery/600/600' },
-    { id: 'k6', name: 'Graters & Chopping Boards', description: 'Essential kitchen tools with custom branding.', image: 'https://picsum.photos/seed/grater/600/600' },
-    { id: 'k7', name: 'Sieves & Colanders', description: 'Durable mesh sieves for everyday kitchen use.', image: 'https://picsum.photos/seed/sieve/600/600' },
-    { id: 'k8', name: 'Dishwashing Set', description: 'Liquid soap and sponge pack in a branded mesh bag.', image: 'https://picsum.photos/seed/soap/600/600' },
-    { id: 'k9', name: 'Spice Racks & Containers', description: 'Organize your kitchen with these stylish containers.', image: 'https://picsum.photos/seed/spice/600/600' },
+    { id: 'k1', name: 'Customized Plastic Basins', description: 'High-quality durable basins customized with event name and date.', image: PlasticBasinImage, badge: 'Best Seller' },
+    { id: 'k2', name: 'Premium Serving Trays', description: 'Available in plastic, wooden, and metallic finishes.', image: TrayImage },
+    { id: 'k3', name: 'Customized Mugs & Cups', description: 'Ceramic or plastic mugs with high-quality print.', image: Cup1Image, isPopular: true },
+    { id: 'k4', name: 'Food Flasks & Coolers', description: 'Insulated flasks to keep food warm for hours.', image: FoodFlasksImage },
+    { id: 'k5', name: 'Premium Cutlery Sets', description: 'Stainless steel cutlery in elegant packaging.', image: PremiumCutleryImage },
+    { id: 'k6', name: 'Graters & Chopping Boards', description: 'Essential kitchen tools with custom branding.', image: GratersImage },
+    { id: 'k7', name: 'Sieves & Colanders', description: 'Durable mesh sieves for everyday kitchen use.', image: SieveImage },
+    { id: 'k8', name: 'Dishwashing Set', description: 'Liquid soap and sponge pack in a branded mesh bag.', image: DishwashingImage },
+    { id: 'k9', name: 'Spice Racks & Containers', description: 'Organize your kitchen with these stylish containers.', image: SpiceImage },
   ],
   personal: [
     { id: 'p1', name: 'Customized Umbrellas', description: 'Large sturdy umbrellas with full-color branding.', image: 'https://picsum.photos/seed/umbrella/600/600', isPopular: true },

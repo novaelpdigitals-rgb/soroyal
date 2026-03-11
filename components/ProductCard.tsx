@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 import { motion } from 'motion/react';
 import { ShoppingCart, Eye, Star } from 'lucide-react';
 
@@ -9,7 +9,7 @@ interface Product {
   id: string;
   name: string;
   description: string;
-  image: string;
+  image: string | StaticImageData;
   price?: string;
   badge?: string;
   isPopular?: boolean;
