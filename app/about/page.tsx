@@ -4,6 +4,10 @@ import React from 'react';
 import Image from 'next/image';
 import { motion } from 'motion/react';
 import { CheckCircle2, Users, Award, Heart, ShieldCheck } from 'lucide-react';
+import CeramicCupsImage from '@/images/ceramic cups.jpg';
+import OyeyemiImage from '@/images/Oyeyemi.png';
+import AdeyemiImage from '@/images/Adeyemi.png';
+import OkoroImage from '@/images/okoro.png';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import FloatingActions from '@/components/FloatingActions';
@@ -17,9 +21,9 @@ const AboutPage = () => {
   ];
 
   const team = [
-    { name: 'Oyeyemi Haladay', role: 'Founder & CEO', image: 'https://picsum.photos/seed/sarah/400/400' },
-    { name: 'James Adeyemi', role: 'Head of Operations', image: 'https://picsum.photos/seed/james/400/400' },
-    { name: 'Blessing Okoro', role: 'Creative Director', image: 'https://picsum.photos/seed/blessing/400/400' },
+    { name: 'Oyeyemi Haladay', role: 'Founder & CEO', image: OyeyemiImage },
+    { name: 'James Adeyemi', role: 'Head of Operations', image: AdeyemiImage },
+    { name: 'Blessing Okoro', role: 'Creative Director', image: OkoroImage },
   ];
 
   return (
@@ -65,7 +69,7 @@ const AboutPage = () => {
             </motion.div>
             <motion.div initial={{ opacity: 0, scale: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} className="relative">
               <div className="rounded-[3rem] overflow-hidden shadow-2xl relative h-[600px]">
-                <Image src="https://picsum.photos/seed/story/800/1000" alt="Our Story" fill className="object-cover" referrerPolicy="no-referrer" />
+                <Image src={CeramicCupsImage} alt="Our Story" fill className="object-cover" />
               </div>
               <div className="absolute -bottom-10 -left-10 bg-white p-8 rounded-3xl shadow-xl border border-stone-100 max-w-xs">
                 <p className="text-4xl font-display font-bold text-blue-700 mb-2">10+</p>
