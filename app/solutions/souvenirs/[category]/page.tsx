@@ -39,6 +39,10 @@ import WineImage from '@/images/wine.jpg';
 import LeatherImage from '@/images/leather.jpg';
 import AnkaraImage from '@/images/ankara.jpg';
 import HandfanImage from '@/images/handfan.jpg';
+import PowerbankImage from '@/images/powerbank.jpg';
+import UsbflashImage from '@/images/usbflash.jpg';
+import BluetoothImage from '@/images/bluetooth.jpg';
+import BrandedPopImage from '@/images/brandedpop.jpg';
 
 const productsData: Record<string, any[]> = {
   kitchen: [
@@ -78,10 +82,10 @@ const productsData: Record<string, any[]> = {
     { id: 'l6', name: 'Rechargeable Table Fans', description: 'Portable and powerful fans for modern comfort.', image: HandfanImage },
   ],
   tech: [
-    { id: 't1', name: 'Custom Power Banks', description: 'High-capacity power banks with engraved branding.', image: 'https://picsum.photos/seed/power/600/600', isPopular: true },
-    { id: 't2', name: 'USB Flash Drives', description: 'Available in various capacities with custom shapes.', image: 'https://picsum.photos/seed/usb/600/600' },
-    { id: 't3', name: 'Bluetooth Speakers', description: 'Compact and powerful speakers for music on the go.', image: 'https://picsum.photos/seed/speaker/600/600', badge: 'Millennial Choice' },
-    { id: 't4', name: 'Branded Pop Sockets', description: 'Stylish phone grips with custom event logos.', image: 'https://picsum.photos/seed/pop/600/600' },
+    { id: 't1', name: 'Custom Power Banks', description: 'High-capacity power banks with engraved branding.', image: PowerbankImage, isPopular: true },
+    { id: 't2', name: 'USB Flash Drives', description: 'Available in various capacities with custom shapes.', image: UsbflashImage },
+    { id: 't3', name: 'Bluetooth Speakers', description: 'Compact and powerful speakers for music on the go.', image: BluetoothImage, badge: 'Millennial Choice' },
+    { id: 't4', name: 'Branded Pop Sockets', description: 'Stylish phone grips with custom event logos.', image: BrandedPopImage },
   ]
 };
 
