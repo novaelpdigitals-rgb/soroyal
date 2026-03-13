@@ -33,6 +33,12 @@ import OilImage from '@/images/oil.jpg';
 import SeasonedImage from '@/images/seasoned.jpg';
 import PlantainImage from '@/images/plantain.jpg';
 import ChinchinImage from '@/images/chinchin.jpg';
+import PremiumFlaskCupsImage from '@/images/premium flask and cups.jpg';
+import PerfumesImage from '@/images/perfumes.jpg';
+import WineImage from '@/images/wine.jpg';
+import LeatherImage from '@/images/leather.jpg';
+import AnkaraImage from '@/images/ankara.jpg';
+import HandfanImage from '@/images/handfan.jpg';
 
 const productsData: Record<string, any[]> = {
   kitchen: [
@@ -64,12 +70,12 @@ const productsData: Record<string, any[]> = {
     { id: 'e6', name: 'Premium Chin Chin', description: 'Homemade style chin chin in various sizes.', image: ChinchinImage },
   ],
   luxury: [
-    { id: 'l1', name: 'Vacuum Travel Flasks', description: 'Double-walled stainless steel flasks for hot/cold drinks.', image: 'https://picsum.photos/seed/vflask/600/600', badge: 'VIP' },
-    { id: 'l2', name: 'Designer Perfumes', description: 'Long-lasting fragrances in elegant gift boxes.', image: 'https://picsum.photos/seed/perfume/600/600', isPopular: true },
-    { id: 'l3', name: 'Customized Wine Bottles', description: 'Premium wine with personalized labels for your event.', image: 'https://picsum.photos/seed/wine/600/600' },
-    { id: 'l4', name: 'Leather Passport Holders', description: 'Genuine leather holders with embossed initials.', image: 'https://picsum.photos/seed/passport/600/600' },
-    { id: 'l5', name: 'Premium Fabric Sets', description: 'Ankara, Lace, or Guinea Brocade fabric for VIP guests.', image: 'https://picsum.photos/seed/fabric/600/600', badge: 'Luxury' },
-    { id: 'l6', name: 'Rechargeable Table Fans', description: 'Portable and powerful fans for modern comfort.', image: 'https://picsum.photos/seed/rfan/600/600' },
+    { id: 'l1', name: 'Vacuum Travel Flasks', description: 'Double-walled stainless steel flasks for hot/cold drinks.', image: PremiumFlaskCupsImage, badge: 'VIP' },
+    { id: 'l2', name: 'Designer Perfumes', description: 'Long-lasting fragrances in elegant gift boxes.', image: PerfumesImage, isPopular: true },
+    { id: 'l3', name: 'Customized Wine Bottles', description: 'Premium wine with personalized labels for your event.', image: WineImage },
+    { id: 'l4', name: 'Leather Passport Holders', description: 'Genuine leather holders with embossed initials.', image: LeatherImage },
+    { id: 'l5', name: 'Premium Fabric Sets', description: 'Ankara, Lace, or Guinea Brocade fabric for VIP guests.', image: AnkaraImage, badge: 'Luxury' },
+    { id: 'l6', name: 'Rechargeable Table Fans', description: 'Portable and powerful fans for modern comfort.', image: HandfanImage },
   ],
   tech: [
     { id: 't1', name: 'Custom Power Banks', description: 'High-capacity power banks with engraved branding.', image: 'https://picsum.photos/seed/power/600/600', isPopular: true },
