@@ -27,6 +27,12 @@ import GratersImage from '@/images/graters.jpg';
 import SieveImage from '@/images/sieve.jpg';
 import DishwashingImage from '@/images/SO soap1.jpg';
 import SpiceImage from '@/images/spice.jpg';
+import NoodlesImage from '@/images/noodles.jpg';
+import GarriImage from '@/images/garri.jpg';
+import OilImage from '@/images/oil.jpg';
+import SeasonedImage from '@/images/seasoned.jpg';
+import PlantainImage from '@/images/plantain.jpg';
+import ChinchinImage from '@/images/chinchin.jpg';
 
 const productsData: Record<string, any[]> = {
   kitchen: [
@@ -50,12 +56,12 @@ const productsData: Record<string, any[]> = {
     { id: 'p7', name: 'Hygiene Packs', description: 'Hand sanitizer and liquid soap in travel-size bottles.', image: '/images/hygiene.jpg' },
   ],
   edibles: [
-    { id: 'e1', name: 'Noodles Bundle', description: 'A pack of popular Nigerian noodles in custom packaging.', image: 'https://picsum.photos/seed/noodles/600/600' },
-    { id: 'e2', name: 'Garri & Sugar Pack', description: 'Premium white/yellow garri with sugar and groundnuts.', image: 'https://picsum.photos/seed/garri/600/600', badge: 'Traditional' },
-    { id: 'e3', name: 'Cooking Oil Bottles', description: 'Branded bottles of high-quality vegetable oil.', image: 'https://picsum.photos/seed/oil/600/600' },
-    { id: 'e4', name: 'Seasoning & Salt Pack', description: 'Essential cooking spices in a branded pouch.', image: 'https://picsum.photos/seed/salt/600/600' },
-    { id: 'e5', name: 'Plantain Chips Pack', description: 'Crunchy and delicious plantain chips in custom bags.', image: 'https://picsum.photos/seed/chips/600/600', isPopular: true },
-    { id: 'e6', name: 'Premium Chin Chin', description: 'Homemade style chin chin in various sizes.', image: 'https://picsum.photos/seed/chinchin/600/600' },
+    { id: 'e1', name: 'Noodles Bundle', description: 'A pack of popular Nigerian noodles in custom packaging.', image: NoodlesImage },
+    { id: 'e2', name: 'Garri & Sugar Pack', description: 'Premium white/yellow garri with sugar and groundnuts.', image: GarriImage, badge: 'Traditional' },
+    { id: 'e3', name: 'Cooking Oil Bottles', description: 'Branded bottles of high-quality vegetable oil.', image: OilImage },
+    { id: 'e4', name: 'Seasoning & Salt Pack', description: 'Essential cooking spices in a branded pouch.', image: SeasonedImage },
+    { id: 'e5', name: 'Plantain Chips Pack', description: 'Crunchy and delicious plantain chips in custom bags.', image: PlantainImage, isPopular: true },
+    { id: 'e6', name: 'Premium Chin Chin', description: 'Homemade style chin chin in various sizes.', image: ChinchinImage },
   ],
   luxury: [
     { id: 'l1', name: 'Vacuum Travel Flasks', description: 'Double-walled stainless steel flasks for hot/cold drinks.', image: 'https://picsum.photos/seed/vflask/600/600', badge: 'VIP' },
