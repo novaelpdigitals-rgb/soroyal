@@ -4,7 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import { motion } from 'motion/react';
 import { CheckCircle2, Users, Award, Heart, ShieldCheck } from 'lucide-react';
-import CeramicCupsImage from '@/images/ceramic cups.jpg';
+import SoapImage from '@/images/soap3.jpg';
 import OyeyemiImage from '@/images/Oyeyemi.png';
 import AdeyemiImage from '@/images/Adeyemi.png';
 import OkoroImage from '@/images/okoro.png';
@@ -69,7 +69,7 @@ const AboutPage = () => {
             </motion.div>
             <motion.div initial={{ opacity: 0, scale: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} className="relative">
               <div className="rounded-[3rem] overflow-hidden shadow-2xl relative h-[600px]">
-                <Image src={CeramicCupsImage} alt="Our Story" fill className="object-cover" />
+                <Image src={SoapImage} alt="Our Story" fill className="object-cover" />
               </div>
               <div className="absolute -bottom-10 -left-10 bg-white p-8 rounded-3xl shadow-xl border border-stone-100 max-w-xs">
                 <p className="text-4xl font-display font-bold text-blue-700 mb-2">10+</p>
