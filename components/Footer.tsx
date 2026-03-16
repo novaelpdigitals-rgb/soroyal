@@ -1,6 +1,8 @@
 import React from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { Facebook, Instagram, Twitter, Mail, Phone, MapPin, Send } from 'lucide-react';
+import LogoImage from '@/images/SORoyal (2).jpg';
 
 const Footer = () => {
   return (
@@ -10,10 +12,13 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-6">
             <Link href="/" className="inline-block">
-              <span className="text-3xl font-display font-bold text-white">
-                SO<span className="text-amber-500">Royal</span>
-                <span className="ml-2 text-sm font-sans font-black uppercase tracking-tighter border-2 border-amber-500 px-1 rounded text-white">Bubbles</span>
-              </span>
+              <Image
+                src={LogoImage}
+                alt="SORoyal Solutions logo"
+                width={200}
+                height={70}
+                className="h-12 w-auto"
+              />
             </Link>
             <p className="text-stone-400 leading-relaxed">
               Elevating Nigerian celebrations with premium souvenirs, expert event planning, and creative student training programs.

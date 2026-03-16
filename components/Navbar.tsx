@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'motion/react';
 import { Menu, X, ChevronDown, ShoppingBag, Calendar, GraduationCap } from 'lucide-react';
+import LogoImage from '@/images/SORoyal (2).jpg';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -38,10 +40,14 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           <Link href="/" className="flex items-center space-x-2">
-            <span className={`text-2xl font-display font-bold ${isScrolled ? 'text-blue-600' : 'text-white'}`}>
-              SO<span className="text-amber-500">Royal</span>
-              <span className={`ml-1 text-sm font-sans font-black uppercase tracking-tighter border-2 px-1 rounded ${isScrolled ? 'border-amber-500 text-black' : 'border-white text-white'}`}>Bubbles</span>
-            </span>
+            <Image
+              src={LogoImage}
+              alt="SORoyal Solutions logo"
+              width={180}
+              height={60}
+              priority
+              className="h-10 w-auto"
+            />
           </Link>
 
           {/* Desktop Nav */}
