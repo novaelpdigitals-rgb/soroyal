@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Facebook, Instagram, Twitter, Mail, Phone, MapPin, Send } from 'lucide-react';
-import LogoImage from '@/images/SORoyal (2).jpg';
+import LogoImage from '@/images/SORoyal solutions.jpg';
 
 const Footer = () => {
   return (

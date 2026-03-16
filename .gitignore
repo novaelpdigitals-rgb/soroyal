@@ -8,3 +8,8 @@ coverage/
 
 .vercel
 .gemini/
+
+# Local temp artifacts
+.npm-cache/
+tsconfig.tsbuildinfo
+/SORoyal Solutions.jpg

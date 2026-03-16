@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'motion/react';
 import { Menu, X, ChevronDown, ShoppingBag, Calendar, GraduationCap } from 'lucide-react';
-import LogoImage from '@/images/SORoyal (2).jpg';
+import LogoImage from '@/images/SORoyal solutions.jpg';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
