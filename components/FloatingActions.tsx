@@ -39,7 +39,7 @@ const FloatingActions = () => {
       <motion.a
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
-        href="https://wa.me/234800SOROYAL"
+        href="https://wa.me/2349034869154"
         target="_blank"
         rel="noopener noreferrer"
         className="w-14 h-14 bg-green-500 text-white rounded-full shadow-2xl flex items-center justify-center hover:bg-green-600 transition-colors relative group"
@@ -47,7 +47,7 @@ const FloatingActions = () => {
       >
         <MessageCircle size={30} />
         <span className="absolute right-full mr-4 bg-white text-stone-800 px-3 py-1.5 rounded-lg text-sm font-medium shadow-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none border border-stone-100">
-          Chat with us
+          Chat With Us
         </span>
       </motion.a>
     </div>
